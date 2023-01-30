@@ -16,5 +16,5 @@ if (n == 6)
 Console.WriteLine("суббота");
 if (n == 7)
 Console.WriteLine("воскресенье");
-else if (n > 7)
-Console.WriteLine("Вы ввели слишком большое число, попробуйте от 1 до 7");
+else if (n < 1 || n > 7)
+Console.WriteLine("Вы ввели слишком маленькое или большое число, \n попробуйте от 1 до 7");
